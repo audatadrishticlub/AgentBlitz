@@ -1,0 +1,12 @@
+- `[x]` Delete vanilla HTML files (`index.html`, `styles.css`)
+- `[x]` Scaffold Vite + React project & install dependencies (`gh-pages`)
+- `[x]` Move logos to `public/assets/` directory
+- `[x]` Configure GitHub pages deployment in `vite.config.js` and `package.json`
+- `[x]` Create Component: `Navbar.jsx`
+- `[x]` Create Component: `Hero.jsx`
+- `[x]` Create Component: `About.jsx`
+- `[x]` Create Component: `Agenda.jsx`
+- `[x]` Create Component: `Prerequisites.jsx` & `FAQ.jsx`
+- `[x]` Create Component: `Footer.jsx`
+- `[x]` Implement global dark theme in `index.css`
+- `[x]` Test local build and UI rendering

@@ -1,0 +1,200 @@
+:root {
+  /* Color Palette */
+  --bg-dark: #0A0E14;
+  --bg-darker: #06090c;
+  --bg-surface: #10141C;
+  --accent-cyan: #2DE1D0;
+  
+  --text-main: #E2E8F0;
+  --text-muted: #94A3B8;
+  
+  /* Typography */
+  --font-heading: 'Syne', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  margin-top: 0;
+  color: #fff;
+}
+
+a {
+  color: var(--accent-cyan);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Base App Layout */
+.app-container {
+  max-width: 100vw;
+  padding-bottom: 4rem;
+}
+
+/* Sections */
+section {
+  padding: 6rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.bg-surface-section {
+  background-color: var(--bg-surface);
+  border-radius: 24px;
+  padding: 4rem;
+  margin: 2rem auto;
+}
+
+/* Buttons */
+.btn-outline {
+  display: inline-block;
+  border: 2px solid var(--accent-cyan);
+  color: var(--accent-cyan);
+  background: transparent;
+  padding: 1rem 2.5rem;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(45, 225, 208, 0.1);
+}
+
+.btn-outline:hover {
+  background: rgba(45, 225, 208, 0.1);
+  box-shadow: 0 0 25px rgba(45, 225, 208, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Glow Text */
+.glow-text {
+  text-shadow: 0 0 20px rgba(45, 225, 208, 0.4), 0 0 40px rgba(45, 225, 208, 0.2);
+  color: #fff;
+}
+
+/* Icon Chips */
+.icon-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--bg-surface);
+  border: 1px solid rgba(255,255,255,0.05);
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-main);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.icon-chip .icon {
+  font-size: 1.1rem;
+}
+
+.icon-chip .label {
+  color: var(--accent-cyan);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.75rem;
+  margin-right: 0.25rem;
+}
+
+/* Accordions */
+details {
+  background-color: var(--bg-surface);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+details summary {
+  padding: 1.25rem 1.5rem;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::after {
+  content: "▼";
+  font-size: 0.9rem;
+  transition: transform 0.3s ease;
+  color: var(--accent-cyan);
+}
+
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.details-content {
+  padding: 0 1.5rem 1.25rem;
+  color: var(--text-muted);
+}
+
+/* Accessibility */
+a:focus, button:focus, summary:focus {
+  outline: 2px solid var(--accent-cyan);
+  outline-offset: 4px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 640px) {
+  section {
+    padding: 3rem 1rem;
+  }
+  .bg-surface-section {
+    padding: 2rem 1rem;
+  }
+  
+  /* Agenda Stacked Cards */
+  .agenda-table thead {
+    display: none;
+  }
+  .agenda-table, .agenda-table tbody, .agenda-table tr, .agenda-table td {
+    display: block;
+    width: 100%;
+  }
+  .agenda-table tr {
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 12px;
+    background-color: var(--bg-surface);
+  }
+  .agenda-table td {
+    padding: 1rem;
+  }
+  .agenda-table td:first-child {
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    background-color: rgba(0,0,0,0.2);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+}
