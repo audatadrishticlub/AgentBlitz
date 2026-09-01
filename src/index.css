@@ -220,4 +220,9 @@ a:focus, button:focus, summary:focus {
   .responsive-grid {
     grid-template-columns: 1fr !important;
   }
+  
+  /* Utilities */
+  .hide-on-mobile {
+    display: none !important;
+  }
 }

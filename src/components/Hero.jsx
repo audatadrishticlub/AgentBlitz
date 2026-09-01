@@ -10,7 +10,7 @@ const Hero = () => {
         maxWidth: '800px',
         margin: '0 auto 1.5rem'
       }}>
-        Agent Blitz <br /><br></br>
+        Agent Blitz <br />
         <span style={{ fontWeight: '600' }}>Automating <span className="glow-text">Intelligence</span></span>
       </h1>
 
