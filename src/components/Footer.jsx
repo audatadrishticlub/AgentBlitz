@@ -22,7 +22,7 @@ const Footer = () => {
             padding: '1rem',
             borderRadius: '50%'
           }}>
-             <img src="/Agent-Blitz/assets/data-drishti-logo.png" alt="Data Drishti Logo" style={{ height: '140px', objectFit: 'contain' }} />
+             <img src="/DataBlitz/assets/data-drishti-logo.png" alt="Data Drishti Logo" style={{ height: '140px', objectFit: 'contain' }} />
           </div>
         </div>
 

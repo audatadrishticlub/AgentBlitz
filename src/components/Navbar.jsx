@@ -28,14 +28,14 @@ const Navbar = () => {
             display: 'flex',
             alignItems: 'center'
           }}>
-            <img src="/Agent-Blitz/assets/university-logo.png" alt="University Logo" style={{ height: '45px', objectFit: 'contain' }} />
+            <img src="/DataBlitz/assets/university-logo.png" alt="University Logo" style={{ height: '45px', objectFit: 'contain' }} />
           </div>
           <div style={{ fontWeight: '800', fontFamily: 'var(--font-heading)', fontSize: '1.4rem', color: '#fff' }}>
             Agent Blitz <span style={{ color: 'var(--accent-cyan)' }}>2026</span>
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/Agent-Blitz/assets/data-drishti-logo.png" alt="Data Drishti Logo" style={{ height: '60px', objectFit: 'contain' }} />
+          <img src="/DataBlitz/assets/data-drishti-logo.png" alt="Data Drishti Logo" style={{ height: '60px', objectFit: 'contain' }} />
         </div>
       </nav>
     </header>
