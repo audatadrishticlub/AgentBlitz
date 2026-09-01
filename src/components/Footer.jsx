@@ -8,7 +8,7 @@ const Footer = () => {
       marginTop: '4rem',
       borderTop: '1px solid rgba(255,255,255,0.05)'
     }}>
-      <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem' }}>
+      <div className="footer-grid-main" style={{ maxWidth: '1100px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '3rem' }}>
         
         <div>
           <h3 style={{ fontSize: '1.8rem', color: 'var(--accent-cyan)', marginBottom: '1rem' }}>Data Drishti Club</h3>
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>
+        <div className="footer-grid-inner" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>
           
           <div>
             <h4 style={{ fontSize: '1.2rem', marginBottom: '1.5rem', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '0.5rem', color: '#fff' }}>
