@@ -1,12 +1,8 @@
-- `[x]` Delete vanilla HTML files (`index.html`, `styles.css`)
-- `[x]` Scaffold Vite + React project & install dependencies (`gh-pages`)
-- `[x]` Move logos to `public/assets/` directory
-- `[x]` Configure GitHub pages deployment in `vite.config.js` and `package.json`
-- `[x]` Create Component: `Navbar.jsx`
-- `[x]` Create Component: `Hero.jsx`
-- `[x]` Create Component: `About.jsx`
-- `[x]` Create Component: `Agenda.jsx`
-- `[x]` Create Component: `Prerequisites.jsx` & `FAQ.jsx`
-- `[x]` Create Component: `Footer.jsx`
-- `[x]` Implement global dark theme in `index.css`
-- `[x]` Test local build and UI rendering
+- [x] Create `useMobile` React hook
+- [x] Update `Navbar.jsx` to stack logos or wrap nicely on mobile (uni above, club below)
+- [x] Update `Hero.jsx` to reduce clamping sizes and fix flex wraps conditionally
+- [x] Update `Agenda.jsx` to conditionally render nice cards on mobile instead of a table
+- [x] Update `Footer.jsx` to ensure grid stacks properly without CSS `!important` clashes
+- [x] Update `index.css` to clean up old mobile styles
+- [x] Run `npm run build` and perform self-review pass
+- [x] Create walkthrough artifact

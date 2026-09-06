@@ -182,47 +182,4 @@ a:focus, button:focus, summary:focus {
   .bg-surface-section {
     padding: 2rem 1rem;
   }
-  
-  /* Agenda Stacked Cards */
-  .agenda-table thead {
-    display: none;
-  }
-  .agenda-table, .agenda-table tbody, .agenda-table tr, .agenda-table td {
-    display: block;
-    width: 100%;
-  }
-  .agenda-table tr {
-    margin-bottom: 1.5rem;
-    border: 1px solid rgba(255,255,255,0.05);
-    border-radius: 12px;
-    background-color: var(--bg-surface);
-  }
-  .agenda-table td {
-    padding: 1rem;
-  }
-  .agenda-table td:first-child {
-    border-bottom: 1px solid rgba(255,255,255,0.05);
-    background-color: rgba(0,0,0,0.2);
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-  }
-  
-  /* Footer responsive grid */
-  .footer-grid-main {
-    grid-template-columns: 1fr !important;
-  }
-  .footer-grid-inner {
-    grid-template-columns: 1fr !important;
-    gap: 1rem !important;
-  }
-  
-  /* Generic responsive grid */
-  .responsive-grid {
-    grid-template-columns: 1fr !important;
-  }
-  
-  /* Utilities */
-  .hide-on-mobile {
-    display: none !important;
-  }
 }

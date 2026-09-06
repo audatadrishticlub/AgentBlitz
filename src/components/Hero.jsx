@@ -1,10 +1,12 @@
 import React from 'react';
+import useMobile from '../hooks/useMobile';
 
 const Hero = () => {
+  const isMobile = useMobile();
   return (
-    <section id="hero" style={{ textAlign: 'center', paddingTop: '4rem', paddingBottom: '2rem' }}>
+    <section id="hero" style={{ textAlign: 'center', paddingTop: isMobile ? '2rem' : '4rem', paddingBottom: '2rem' }}>
       <h1 style={{
-        fontSize: 'clamp(3rem, 6vw, 5rem)',
+        fontSize: isMobile ? 'clamp(2.2rem, 10vw, 3rem)' : 'clamp(3rem, 6vw, 5rem)',
         lineHeight: '1.1',
         marginBottom: '1.5rem',
         maxWidth: '800px',
@@ -23,7 +25,7 @@ const Hero = () => {
         Join us for an interactive, no-code workshop on building real AI agents — no experience needed.
       </p>
 
-      <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
+      <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: 'center', alignItems: 'center', gap: '1.5rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
         <div className="icon-chip">
           <span className="icon">📅</span>
           <span className="label">DATE</span>
@@ -42,7 +44,7 @@ const Hero = () => {
         </a>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+      <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: 'center', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
         <div className="icon-chip" style={{ fontSize: '0.8rem', padding: '0.4rem 1rem' }}>No Coding Needed</div>
         <div className="icon-chip" style={{ fontSize: '0.8rem', padding: '0.4rem 1rem' }}>100% Hands-On</div>
         <div className="icon-chip" style={{ fontSize: '0.8rem', padding: '0.4rem 1rem' }}>Free Entry</div>
