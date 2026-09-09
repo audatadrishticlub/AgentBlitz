@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="icon-chip">
           <span className="icon">📅</span>
           <span className="label">DATE</span>
-          <span>September 10, 2026</span>
+          <span>will be updated</span>
         </div>
         <div className="icon-chip">
           <span className="icon">📍</span>
@@ -39,7 +39,7 @@ const Hero = () => {
       </div>
 
       <div style={{ marginBottom: '1.5rem' }}>
-        <a href="https://forms.cloud.microsoft/r/wTDC9YC597" className="btn-outline">
+        <a href="https://forms.cloud.microsoft/r/wTDC9YC597" className="btn-light">
           SECURE YOUR SPOT
         </a>
       </div>

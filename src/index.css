@@ -70,26 +70,26 @@ section {
 }
 
 /* Buttons */
-.btn-outline {
+.btn-light {
   display: inline-block;
-  border: 2px solid var(--accent-cyan);
-  color: var(--accent-cyan);
-  background: transparent;
+  background-color: var(--accent-cyan);
+  color: var(--bg-dark);
   padding: 1rem 2.5rem;
   font-family: var(--font-heading);
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 9999px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 0 15px rgba(45, 225, 208, 0.1);
+  box-shadow: 0 4px 15px rgba(45, 225, 208, 0.2);
+  border: none;
 }
 
-.btn-outline:hover {
-  background: rgba(45, 225, 208, 0.1);
-  box-shadow: 0 0 25px rgba(45, 225, 208, 0.3);
+.btn-light:hover {
+  background-color: #4df9e6;
+  box-shadow: 0 6px 20px rgba(45, 225, 208, 0.4);
   transform: translateY(-2px);
 }
 

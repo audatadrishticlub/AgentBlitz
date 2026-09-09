@@ -14,6 +14,11 @@ function App() {
       <About />
       <Agenda />
       <FAQ />
+      <div style={{ textAlign: 'center', margin: '4rem 0 2rem' }}>
+        <a href="https://forms.cloud.microsoft/r/wTDC9YC597" className="btn-light">
+          SECURE YOUR SPOT
+        </a>
+      </div>
       <Footer />
     </div>
   );
