@@ -36,14 +36,14 @@ const Navbar = () => {
             display: 'flex',
             alignItems: 'center'
           }}>
-            <img src="/DataBlitz/assets/university-logo.png" alt="University Logo" style={{ height: isMobile ? '40px' : '30px', objectFit: 'contain' }} />
+            <img src="/AgentBlitz/assets/university-logo.png" alt="University Logo" style={{ height: isMobile ? '40px' : '30px', objectFit: 'contain' }} />
           </div>
           <div style={{ fontWeight: '800', fontFamily: 'var(--font-heading)', fontSize: 'clamp(0.9rem, 3vw, 1.2rem)', color: '#fff', marginLeft: isMobile ? '0' : '0.25rem', textAlign: isMobile ? 'center' : 'left', whiteSpace: 'nowrap' }}>
             Agent Blitz <span style={{ color: 'var(--accent-cyan)' }}>2026</span>
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/DataBlitz/assets/data-drishti-logo.png" alt="Data Drishti Logo" style={{ height: isMobile ? '50px' : '35px', objectFit: 'contain' }} />
+          <img src="/AgentBlitz/assets/data-drishti-logo.png" alt="Data Drishti Logo" style={{ height: isMobile ? '50px' : '35px', objectFit: 'contain' }} />
         </div>
       </nav>
     </header>
