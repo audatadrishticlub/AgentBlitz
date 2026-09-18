@@ -34,7 +34,7 @@ const Hero = () => {
         <div className="icon-chip">
           <span className="icon">📍</span>
           <span className="label">VENUE</span>
-          <span>dropping soon 👀</span>
+          <span>Seminar Hall -1, LC1</span>
         </div>
       </div>
 
