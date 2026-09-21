@@ -3,7 +3,7 @@ import useMobile from '../hooks/useMobile';
 
 const agendaData = [
   {
-    time: "10:00 AM – 10:25 AM",
+    time: "10:00 AM – 11:00 AM",
     title: "Kickoff & Hot Takes ☕",
     details: [
       "Let's talk AI agents — open floor, no dumb questions, come with opinions.",
@@ -12,7 +12,7 @@ const agendaData = [
     ]
   },
   {
-    time: "10:25 AM – 11:00 AM",
+    time: "11:00 AM – 12:00 PM",
     title: "How Agents Actually Work",
     details: [
       "The real breakdown of what's going on under the hood of an AI agent.",
@@ -21,24 +21,7 @@ const agendaData = [
     ]
   },
   {
-    time: "11:00 AM – 12:00 PM",
-    title: "Build Sprint #1: Money Moves Agent 💸",
-    details: [
-      "Build your own AI agent that reads the market for you.",
-      "Set it up to check on portfolio health monthly.",
-      "Get it spitting out actual trend reports you can use."
-    ]
-  },
-  {
     time: "12:00 PM – 1:00 PM",
-    title: "Lunch + Vibes 🍕",
-    highlight: true,
-    details: [
-      "Food, breather, meet people, no agenda — just recharge."
-    ]
-  },
-  {
-    time: "1:00 PM – 1:40 PM",
     title: "Fixing Your Chaotic Student Life",
     details: [
       "Group discussion: what's actually eating up your time as a student.",
@@ -46,21 +29,28 @@ const agendaData = [
     ]
   },
   {
-    time: "1:40 PM – 2:30 PM",
-    title: "Build Sprint #2: Your Personal Task Bot 🤖",
+    time: "1:00 PM – 3:00 PM",
+    title: "Venue Break ⏳",
+    highlight: true,
     details: [
-      "Build an agent that keeps your life together.",
-      "Feed it your syllabus, deadlines, and project milestones.",
-      "Get it auto-scheduling and prioritizing your to-dos."
+      "Venue closed from 1:00 PM to 3:00 PM for another event."
     ]
   },
   {
-    time: "2:30 PM – 3:00 PM",
-    title: "Wrap-Up & Real Talk",
+    time: "3:00 PM – 4:00 PM",
+    title: "Discussion: LLMs & GPT in the Office 💬",
+    details: [
+      "Open discussion on how Large Language Models work in the real world.",
+      "Practical applications and use cases for AI in everyday office tasks."
+    ]
+  },
+  {
+    time: "4:00 PM – 4:30 PM",
+    title: "Feedback Session & Wrap-Up 📝",
     details: [
       "Group reflection — what clicked, what you're taking home.",
-      "Open floor for any last troubleshooting or questions.",
-      "Quick feedback form (help us make the next one even better)."
+      "Quick feedback form to help us make the next one even better.",
+      "Final wrap-up at 4:30 PM."
     ]
   }
 ];
