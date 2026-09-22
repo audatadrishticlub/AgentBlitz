@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="icon-chip">
           <span className="icon">📅</span>
           <span className="label">DATE</span>
-          <span>22nd September 2026. 10am to 4:30pm</span>
+          <span>29th September 2026. 10am to 4:30pm</span>
         </div>
         <div className="icon-chip">
           <span className="icon">📍</span>
